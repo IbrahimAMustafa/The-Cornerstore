@@ -5,7 +5,7 @@
   --highlight:#6a2e00; 
   --medium: #EED9C4;
   --light: #faf0e6;
-  --navHeight: max(30px, 6vh);
+  --navHeight: max(30px, 7vh);
   --titleHeight: max(25px, calc(1.5vh + 1.5vw))
 }
 
