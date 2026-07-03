@@ -19,12 +19,12 @@ export default function Home() {
           }}
         />
         <div className="relative z-10 flex items-center justify-center h-1/1 text-white bg-black/40 bg-gradient-to-t from-(--medium) to-40%">
-          <h1 className="text-4xl font-bold text-(--light) [-webkit-text-stroke:1px_black]">Brinsmade's Best</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-(--light) [-webkit-text-stroke:1px_black]">Brinsmade's Best</h1>
         </div>
       </div>
       
       <div className='flex flex-col justify-center items-center mt-5'>
-        <h2 className='min-w-[320] text-center text-3xl sm:text-4xl md:text-5xl font-bold text-(--highlight) mb-6'>Convenience Near Home</h2>
+        <h2 className='min-w-[320] text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-(--highlight) mb-6'>Convenience Near Home</h2>
         <div className="w-50 h-1 bg-(--highlight) mx-auto mb-8"></div>
         <p className='text-center min-w-[295px] w-[56vw] max-w-[720px] text-(length:--p1-font-size) mb-5'>Come get snacks, drinks, and food from the store on your street. We have sweets for the kids and alcohol for the party people!
         </p>
@@ -37,8 +37,8 @@ export default function Home() {
         />
       </div>
 
-      <div className='flex flex-col justify-center items-center mt-5 mb-5 pt-5 pb-5 bg-(--altbg)'>
-        <h2 className='min-w-[320] text-center text-3xl sm:text-4xl md:text-5xl font-bold text-(--highlight) mb-6'>All Payment Methods Accepted</h2>
+      <div className='flex flex-col justify-center items-center mt-5 pt-5 pb-5 bg-(--altbg)'>
+        <h2 className='min-w-[320] text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-(--highlight) mb-6'>All Payment Methods Accepted</h2>
         <div className="w-50 h-1 bg-(--highlight) mx-auto mb-8"></div>
         <p className='text-center min-w-[280px] w-[55vw] max-w-[650px] text-(length:--p1-font-size) mb-5'>We accept cash, EBT, credit, and debit, and if needed we also have an ATM inside with a withdrawl limit of $200
         </p>

@@ -11,7 +11,7 @@ export function HeaderNav() {
     { label: 'Contact', href: '/contact' }]
 
   return (
-    <nav className="flex sticky top-0 z-100 w-1/1 items-center h-(--navHeight) gap-4 pr-4 pl-4 pb-1 pt-1 bg-(--dark)">
+    <nav className="flex sticky top-0 z-100 w-1/1 items-center h-(--navHeight) gap-4 pr-4 pl-4 pb-1 pt-1 bg-(--dark) backdrop-blur-md shadow-lg">
         <h2 className='text-(length:--titleHeight) text-(--light)'>The Cornerstore</h2>
 
         <div className="flex ml-auto gap-4">
