@@ -2,7 +2,8 @@
 
 :root {
   --dark: #1F1005;
-  --highlight:#6a2e00; 
+  --highlight:#6a2e00;
+  --altbg: #8c755a;
   --medium: #EED9C4;
   --light: #faf0e6;
   --navHeight: max(30px, 7vh);

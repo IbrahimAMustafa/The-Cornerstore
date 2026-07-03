@@ -1,15 +1,4 @@
 :root {
-  --p1-font-size:'20px';
-  --p1-w-size: clamp(280px, 50vw, 406px);
-
-  --img-grid-format: "row";
-  --img1-w: max(200px, 35vw);
-
+  --p1-font-size:clamp(15px, 2.5vw, 25px);
+  --img1-w: clamp(200px, 35vw, 340px);
 }
-
-@media (width <= 500px) { 
-  :root{
-    --img-grid-format : "column" ;
-  }
-}
-
