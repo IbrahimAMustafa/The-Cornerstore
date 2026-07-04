@@ -5,7 +5,7 @@ import cardReader from '../public/Credit-Card-Reader-Image.jpg';
 import atm from '../public/atm-placeholder.jpg';
 import snacks from '../public/snacks.jpg';
 import alcohol from '../public/alcohol.jpg';
-import ContentCard from './contentCard';
+import ContentCard from './components/contentCard';
 
 export default function Home() {
   const contentCards = [
@@ -16,7 +16,7 @@ export default function Home() {
     },
     {
       title: "Cold Beer and Wine",
-      content: `<p>For all the party people, we have all the alcohol you could ask for every day of the week! <br /> (Except sunday if you want wine)<p/>`,
+      content: `For all the party people, we have all the alcohol you could ask for every day of the week! <br /> (Except sunday if you want wine)`,
       images:[alcohol]
     },
     {

@@ -1,3 +1,9 @@
+import MapElement from "../components/googleMap";
+
 export default function Page() {
-  return <h1>Contact Us!</h1>
+  return (
+    <>
+      <MapElement />
+    </>
+  )
 }
