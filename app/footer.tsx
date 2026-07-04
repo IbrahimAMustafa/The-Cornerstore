@@ -42,7 +42,7 @@ export function Footer() {
                     <h3 className='text-(--medium) font-bold text-xl'>Contact Us</h3>
                     <address>
                         <a href="tel:2166313320" style={{textDecoration: "none", color: "inherit", fontStyle: "normal"}}>(216)-631-3320</a>
-                        <p>3175 W 84th St, Cleveland, OH 44102</p>
+                        <p>3175 W 84th St <br/> Cleveland, OH 44102</p>
                     </address>
                 </div>
             </div>
