@@ -13,7 +13,7 @@ const MapElement = () => {
   ClickTracker(isOpen, setIsOpen);
   // Center coordinates (e.g., New York City)
   return (
-    <div style={{ width: '50vw', height: '50vh' }}>
+    <div style={{ width: '100vw', height: '100vh' }}>
       <APIProvider apiKey="AIzaSyDZ8mRIICNrwqMnaJ3Z4182OxvzmrRcwI8" libraries={['places']} version='beta'>
         <Map
           defaultCenter={BUSINESS_LOCATION}
