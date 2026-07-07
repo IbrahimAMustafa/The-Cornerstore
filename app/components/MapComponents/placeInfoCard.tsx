@@ -5,6 +5,7 @@ import {
   useMapsLibrary, 
   useAdvancedMarkerRef 
 } from '@vis.gl/react-google-maps';
+import NewTabIcon from './NewTabIcon';
 
 export default function PlaceInfoCard({ placeId, toggled }: {placeId : any, toggled:boolean}) {
     const placesLibrary = useMapsLibrary('places');
@@ -68,6 +69,9 @@ export default function PlaceInfoCard({ placeId, toggled }: {placeId : any, togg
                     <p style={{ margin: '0', fontSize: '12px', color: '#555' }}>
                         {placeDetails.formattedAddress}
                     </p>
+                    <a style={{position: "absolute", top: 5, right: 5}} href="https://www.google.com/maps/search/?api=1&query=41.46743%2C-81.74251&query_place_id=ChIJ2-af79bxMIgRKA7C0jJWwkA" target="_blank">
+                        <NewTabIcon />
+                    </a>
                 </div>
             </InfoWindow>
         )}

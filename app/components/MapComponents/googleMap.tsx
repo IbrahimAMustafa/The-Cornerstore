@@ -4,7 +4,7 @@ import { APIProvider, Map } from '@vis.gl/react-google-maps';
 import { useState, useEffect } from 'react';
 import PlaceInfoCard from './placeInfoCard';
 
-const BUSINESS_LOCATION = { lat: 41.4675342, lng: -81.7423991 };
+const BUSINESS_LOCATION = { lat: 41.46759771011949, lng: -81.74228734417555 };
 const PLACE_ID = 'ChIJ2-af79bxMIgRKA7C0jJWwkA';
 
 const MapElement = () => {
@@ -13,17 +13,15 @@ const MapElement = () => {
   ClickTracker(isOpen, setIsOpen);
   // Center coordinates (e.g., New York City)
   return (
-    <div style={{ width: '100vw', height: '100vh' }}>
-      <APIProvider apiKey="AIzaSyDZ8mRIICNrwqMnaJ3Z4182OxvzmrRcwI8" libraries={['places']} version='beta'>
-        <Map
-          defaultCenter={BUSINESS_LOCATION}
-          defaultZoom={13}
-          mapId="7ad0d4864611dc6eb909f661"
-        >
-          <PlaceInfoCard placeId={PLACE_ID} toggled={isOpen} />
-        </Map>
-      </APIProvider>
-    </div>
+    <APIProvider apiKey="AIzaSyDZ8mRIICNrwqMnaJ3Z4182OxvzmrRcwI8" libraries={['places']} version='beta'>
+      <Map
+        defaultCenter={BUSINESS_LOCATION}
+        defaultZoom={13}
+        mapId="7ad0d4864611dc6eb909f661"
+      >
+        <PlaceInfoCard placeId={PLACE_ID} toggled={isOpen} />
+      </Map>
+    </APIProvider>
   );
 };
 
