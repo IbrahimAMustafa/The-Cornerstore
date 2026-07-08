@@ -63,7 +63,7 @@ export default function PlaceInfoCard({ placeId, toggled }: {placeId : any, togg
             options={{ disableAutoPan: true, headerDisabled: true }}
             >
                 <div style={{ maxWidth: '200px', fontFamily: 'sans-serif', padding: '4px' }}>
-                    <h3 style={{ margin: '0 0 4px 0', fontSize: '14px' }}>
+                    <h3 style={{ margin: '0 0 4px 0', fontSize: '14px', fontWeight: 'bold'}}>
                         {placeDetails.displayName}
                     </h3>
                     <p style={{ margin: '0', fontSize: '12px', color: '#555' }}>
