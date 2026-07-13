@@ -7,8 +7,9 @@ export function Footer() {
   const pathname = usePathname();
   const navLinks = [
     { label: 'Home', href: '/' },
-    { label: 'About', href: '/about' },
-    { label: 'Contact', href: '/contact' }]
+    { label: 'Inventory', href: '/Pages/inventory' },
+    { label: 'About', href: '/Pages/about' },
+    { label: 'Contact', href: '/Pages/contact' }]
 
   return (
     <>
