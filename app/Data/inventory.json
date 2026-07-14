@@ -1,0 +1,91 @@
+[
+    {
+        "producer": "Coca-Cola",
+        "products": 
+            [
+                {
+                    "name": "Classic",
+                    "price": "1.00",
+                    "image": "coca-cola-12oz-can.jpg"
+                },
+                {
+                    "name": "Zero-Sugar",
+                    "price": "1.00",
+                    "image": "coca-cola-zero-12oz-can.jpg"
+                },
+                {
+                    "name": "Diet",
+                    "price": "1.00",
+                    "image": "coca-cola-diet-12oz-can.jpg"
+                },
+                {
+                    "name": "Cherry",
+                    "price": "1.00",
+                    "image": "coca-cola-cherry-12oz-can.jpg"
+                },
+                {
+                    "name": "Cherry Float",
+                    "price": "1.00",
+                    "image": "coca-cola-cherry-float-12oz-can.jpg"
+                },
+                {
+                    "name": "Cherry Float Zero",
+                    "price": "1.00",
+                    "image": "coca-cola-cherry-float-zero-12oz-can.jpg"
+                }
+            ]
+    },
+    
+    {
+        "producer": "Pepsi",
+        "products":
+            [
+                {
+                    "name": "Classic",
+                    "price": "1.00",
+                    "image": "pepsi-12oz-can.jpg"
+                },
+                {
+                    "name": "Diet",
+                    "price": "1.00",
+                    "image": "pepsi-diet-12oz-can.jpg"
+                },
+                {
+                    "name": "Cherry",
+                    "price": "1.00",
+                    "image": "pepsi-cherry-12oz-can.jpg"
+                }
+            ]
+    },
+    {
+        "producer":"Dr Pepper",
+        "products": 
+            [
+                {
+                    "name": "Classic",
+                    "price": "1.00",
+                    "image": "dr-pepper-12oz-can.jpg"
+                },
+                {
+                    "name": "Diet",
+                    "price": "1.00",
+                    "image": "dr-pepper-diet-12oz-can.jpg"
+                },
+                {
+                    "name": "Cherry",
+                    "price": "1.00",
+                    "image": "dr-pepper-cherry-12oz-can.jpg"
+                },
+                {
+                    "name": "Cream Soda",
+                    "price": "1.00",
+                    "image": "dr-pepper-cream-soda-12oz-can.jpg"
+                },
+                {
+                    "name": "Strawberries & Cream",
+                    "price": "1.00",
+                    "image": "dr-pepper-strawberries-and-cream-12oz-can.jpg"
+                }
+            ]
+    }
+]

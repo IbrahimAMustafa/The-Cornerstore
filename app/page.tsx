@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import "./home.css";
-import backgroundImage from '../public/thecornerstore.jpg'; // Static import for automatic width/height detection
+import backgroundImage from '../public/thecornerstore.jpg';
 import cardReader from '../public/Credit-Card-Reader-Image.jpg';
 import atm from '../public/atm-placeholder.jpg';
 import snacks from '../public/snacks.jpg';
