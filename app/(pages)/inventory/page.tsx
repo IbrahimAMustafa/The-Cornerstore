@@ -16,7 +16,7 @@ export default function Page() {
   );
 
   const updateNameFilter = (event:any) => {
-    setNameFilter(RegExp.escape(event.target.value));
+    setNameFilter(event.target.value.replace(/[.*+?^${}()|[\]\\\/]/g, '\\$&'));
   };
 
   const handleCheckboxChange = (brand:any) => {
