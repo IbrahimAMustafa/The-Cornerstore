@@ -6,6 +6,7 @@ import React, { useState, useId } from 'react';
 export default function Page() {
 
   const usernameId = useId();
+  const [isOpen, setIsOpen] = useState(false);
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
   const [nameFilter,setNameFilter] = useState('');
   const brands = inventoryData.filter(brand => selectedBrands && selectedBrands.includes(brand.producer) || selectedBrands.length == 0 );
@@ -37,8 +38,9 @@ export default function Page() {
             <input type='text' id={usernameId} className='bg-white w-8/10' onChange={updateNameFilter}/>
           </label>
           <div className='border-b w-1/1'>
-            <p className='text-center'>Brands</p>
-            {inventoryData.map((brand, index) => (
+            <button onClick={() => setIsOpen(!isOpen)} className='text-center w-1/1'>Brands</button>
+            {isOpen && (
+              inventoryData.map((brand, index) => (
               <label key={index} style={{ display: 'block', margin: '5px 0' }}>
                 <input
                   type="checkbox"
@@ -47,7 +49,9 @@ export default function Page() {
                 />
                 {brand.producer}
               </label>
-          ))}
+              ))
+            )}
+            
           </div>
         </div>
         <div className="mr-auto mb-5 border border-solid w-[80vw] h-[60vh] overflow-auto scrollbar-none">

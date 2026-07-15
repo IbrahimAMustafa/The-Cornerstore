@@ -239,6 +239,27 @@
             ]
     },
     {
+        "producer":"Minute Maid",
+        "products": 
+            [
+                {
+                    "name": "Classic Lemonade",
+                    "price": "1.00",
+                    "image": "minute-maid-12oz-can.webp"
+                },
+                {
+                    "name": "Lemonade Zero-Sugar",
+                    "price": "1.00",
+                    "image": "minute-maid-zero-sugar-12oz-can.webp"
+                },
+                {
+                    "name": "Fruit Punch",
+                    "price": "1.00",
+                    "image": "minute-maid-fruit-punch-12oz-can.webp"
+                }
+            ]
+    },
+    {
         "producer":"Vernors",
         "products": 
             [
@@ -279,6 +300,39 @@
                     "name": "Classic Lemon",
                     "price": "1.00",
                     "image": "brisk-lemon-12oz-can.webp"
+                }
+            ]
+    },
+    {
+        "producer":"Yoohoo",
+        "products": 
+            [
+                {
+                    "name": "Classic Chocolate Drink",
+                    "price": "1.25",
+                    "image": "yoohoo-12oz-can.webp"
+                }
+            ]
+    },
+    {
+        "producer":"Tropi-Cola",
+        "products": 
+            [
+                {
+                    "name": "Classic Champagne Drink",
+                    "price": "1.25",
+                    "image": "tropi-cola-12oz-can.webp"
+                }
+            ]
+    },
+    {
+        "producer":"Crush",
+        "products": 
+            [
+                {
+                    "name": "Classic orange",
+                    "price": "1.00",
+                    "image": "crush-12oz-can.webp"
                 }
             ]
     }
