@@ -9,10 +9,14 @@ export default function Page() {
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
   const [nameFilter,setNameFilter] = useState('');
   const brands = inventoryData.filter(brand => selectedBrands && selectedBrands.includes(brand.producer) || selectedBrands.length == 0 );
-  const products = brands.flatMap(brand => brand.products.filter(item => RegExp(nameFilter, 'i').test(item.name+brand.producer)));
+  const products = brands.flatMap(brand => brand.products.map(
+      item => ({...item, producer: brand.producer})
+    ).filter(
+      item => RegExp(nameFilter, 'i').test(item.name+brand.producer))
+  );
 
   const updateNameFilter = (event:any) => {
-    setNameFilter(event.target.value);
+    setNameFilter(RegExp.escape(event.target.value));
   };
 
   const handleCheckboxChange = (brand:any) => {
@@ -27,7 +31,7 @@ export default function Page() {
     <>
       <h3 className='m-auto font-bold text-5xl my-10'>Inventory</h3>
       <div className='m-auto flex flex-row'>
-        <div className='flex flex-col items-center mb-5 border border-solid w-40 '>
+        <div className='flex flex-col items-center mb-5 border border-solid h-[60vh] w-40 overflow-auto scrollbar-none'>
           <p className='text-center border-b w-1/1'>Filters</p>
           <label htmlFor={usernameId} className='flex flex-col items-center border-b pb-5'>Search
             <input type='text' id={usernameId} className='bg-white w-8/10' onChange={updateNameFilter}/>
@@ -51,7 +55,7 @@ export default function Page() {
             {products?.map((item,index) =>
               (
                 <InventoryCard 
-                  name={item.name}
+                  name={item.producer + " " + item.name}
                   price={item.price}
                   image={item.image}
                   key={index}

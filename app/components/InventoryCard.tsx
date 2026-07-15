@@ -14,8 +14,9 @@ export default function InventoryCard ({name, price, image}: ContentCardProps) {
             <Image
                 src={imagePath}
                 alt="Background"
-                width={1000}
-                height={200}
+                width={300}
+                height={300}
+                loading='eager'
                 className='w-7/10 aspect-square object-cover rounded-xl'
             />
             <p className='text-center'>{name}
