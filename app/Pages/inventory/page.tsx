@@ -3,20 +3,13 @@ import InventoryCard from '@/app/components/InventoryCard';
 import inventoryData from '../../Data/inventory.json'
 import React, { useState, useId } from 'react';
 
-
-const brands = [
-  { id: '1', label: 'Coca-Cola' },
-  { id: '2', label: 'Pepsi' },
-  { id: '3', label: 'Dr Pepper' }
-];
-
 export default function Page() {
 
   const usernameId = useId();
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
   const [nameFilter,setNameFilter] = useState('');
   const brands = inventoryData.filter(brand => selectedBrands && selectedBrands.includes(brand.producer) || selectedBrands.length == 0 );
-  const products = brands.flatMap(brand => brand.products).filter(item => RegExp(nameFilter, 'i').test(item.name));
+  const products = brands.flatMap(brand => brand.products.filter(item => RegExp(nameFilter, 'i').test(item.name+brand.producer)));
 
   const updateNameFilter = (event:any) => {
     setNameFilter(event.target.value);
@@ -41,8 +34,8 @@ export default function Page() {
           </label>
           <div className='border-b w-1/1'>
             <p className='text-center'>Brands</p>
-            {inventoryData.map((brand) => (
-              <label key={brand.producer} style={{ display: 'block', margin: '5px 0' }}>
+            {inventoryData.map((brand, index) => (
+              <label key={index} style={{ display: 'block', margin: '5px 0' }}>
                 <input
                   type="checkbox"
                   checked={selectedBrands.includes(brand.producer)}
@@ -54,7 +47,7 @@ export default function Page() {
           </div>
         </div>
         <div className="mr-auto mb-5 border border-solid w-[80vw] h-[60vh] overflow-auto scrollbar-none">
-          <div className='grid grid-cols-[repeat(auto-fill,minmax(150px,1fr))] gap-1 mt-5'>
+          <div className='grid grid-cols-[repeat(auto-fill,minmax(175px,1fr))] gap-1 mt-5'>
             {products?.map((item,index) =>
               (
                 <InventoryCard 

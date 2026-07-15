@@ -7,9 +7,9 @@ export function HeaderNav() {
   const pathname = usePathname();
   const navLinks = [
     { label: 'Home', href: '/' },
-    { label: 'Inventory', href: '/Pages/inventory' },
-    { label: 'About', href: '/Pages/about' },
-    { label: 'Contact', href: '/Pages/contact' }]
+    { label: 'Inventory', href: '/pages/inventory' },
+    { label: 'About', href: '/pages/about' },
+    { label: 'Contact', href: '/pages/contact' }]
 
   return (
     <nav className="flex w-1/1 items-center h-(--navHeight) gap-4 pr-4 pl-4 pb-1 pt-1 bg-(--dark) backdrop-blur-md shadow-lg">

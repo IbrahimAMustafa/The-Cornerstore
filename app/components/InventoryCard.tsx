@@ -10,16 +10,17 @@ interface ContentCardProps {
 export default function InventoryCard ({name, price, image}: ContentCardProps) {
     const imagePath = `/inventory/${image}`
     return (
-        <div className='flex flex-col justify-center items-center'>
+        <div className='flex flex-col  items-center'>
             <Image
                 src={imagePath}
                 alt="Background"
-                width={100}
-                height={100}
-                className='aspect-square object-cover rounded-xl'
+                width={1000}
+                height={200}
+                className='w-7/10 aspect-square object-cover rounded-xl'
             />
-            <p>{name}</p>
-            <p>${price}</p>
+            <p className='text-center'>{name}
+                <br/>
+            ${price}</p>
         </div>
     );
 };

@@ -19,6 +19,11 @@
                     "image": "coca-cola-diet-12oz-can.jpg"
                 },
                 {
+                    "name": "Vanilla",
+                    "price": "1.00",
+                    "image": "coca-cola-vanilla-12oz-can.jpg"
+                },
+                {
                     "name": "Cherry",
                     "price": "1.00",
                     "image": "coca-cola-cherry-12oz-can.jpg"
@@ -29,13 +34,12 @@
                     "image": "coca-cola-cherry-float-12oz-can.jpg"
                 },
                 {
-                    "name": "Cherry Float Zero",
+                    "name": "Cherry Float Zero-Sugar",
                     "price": "1.00",
                     "image": "coca-cola-cherry-float-zero-12oz-can.jpg"
                 }
             ]
     },
-    
     {
         "producer": "Pepsi",
         "products":
@@ -85,6 +89,105 @@
                     "name": "Strawberries & Cream",
                     "price": "1.00",
                     "image": "dr-pepper-strawberries-and-cream-12oz-can.jpg"
+                }
+            ]
+    },
+    {
+        "producer":"Canada Dry",
+        "products": 
+            [
+                {
+                    "name": "Classic Ginger Ale",
+                    "price": "1.00",
+                    "image": "canada-dry-12oz-can.jpg"
+                },
+                {
+                    "name": "Cherry Fruit Splash",
+                    "price": "1.00",
+                    "image": "canada-dry-cherry-fruit-splash-12oz-can.jpg"
+                },
+                {
+                    "name": "Cherry Fruit Splash Zero-Sugar",
+                    "price": "1.00",
+                    "image": "canada-dry-cherry-fruit-splash-zero-12oz-can.jpg"
+                },
+                {
+                    "name": "Strawberry Fruit Splash",
+                    "price": "1.00",
+                    "image": "canada-dry-strawberry-fruit-splash-12oz-can.jpg"
+                },
+                {
+                    "name": "Strawberry Fruit Splash Zero-Sugar",
+                    "price": "1.00",
+                    "image": "canada-dry-strawberry-fruit-splash-zero-12oz-can.jpg"
+                },{
+                    "name": "Ginger Ale Cranberry",
+                    "price": "1.00",
+                    "image": "canada-dry-cranberry-12oz-can.jpg"
+                }
+            ]
+    },
+    {
+        "producer": "Fanta",
+        "products":
+            [
+                {
+                    "name": "Classic Orange",
+                    "price": "1.00",
+                    "image": "fanta-orange-12oz-can.jpg"
+                }, 
+                {
+                    "name": "Strawberry",
+                    "price": "1.00",
+                    "image": "fanta-strawberry-12oz-can.jpg"
+                },
+                {
+                    "name": "Grape",
+                    "price": "1.00",
+                    "image": "fanta-grape-12oz-can.jpg"
+                },
+                {
+                    "name": "Pineapple",
+                    "price": "1.00",
+                    "image": "fanta-pineapple-12oz-can.jpg"
+                }
+            ]
+    },
+    {
+        "producer":"Royal Crown (RC)",
+        "products": 
+            [
+                {
+                    "name": "Classic",
+                    "price": "1.00",
+                    "image": "rc-12oz-can.jpg"
+                },
+                {
+                    "name": "cherry",
+                    "price": "1.00",
+                    "image": "rc-cherry-12oz-can.jpg"
+                }
+            ]
+    },
+    {
+        "producer":"Vernors",
+        "products": 
+            [
+                {
+                    "name": "Classic Ginger Ale",
+                    "price": "1.00",
+                    "image": "vernors-ginger-ale-12oz-can.jpg"
+                }
+            ]
+    },
+    {
+        "producer":"7-UP",
+        "products": 
+            [
+                {
+                    "name": "Classic",
+                    "price": "1.00",
+                    "image": "7-up-12oz-can.jpg"
                 }
             ]
     }
