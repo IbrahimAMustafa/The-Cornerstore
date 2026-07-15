@@ -8,7 +8,7 @@ interface ContentCardProps {
 }
 
 export default function InventoryCard ({name, price, image}: ContentCardProps) {
-    const imagePath = `/inventory/${image}`
+    const imagePath = `/inventory_images/${image}`
     return (
         <div className='flex flex-col  items-center'>
             <Image
