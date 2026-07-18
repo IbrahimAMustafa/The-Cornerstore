@@ -1,338 +1,396 @@
 [
     {
-        "producer": "Coca-Cola",
-        "products": 
+        "type" : "Sodas and Juice",
+        "inventory": 
             [
                 {
-                    "name": "Classic",
-                    "price": "1.00",
-                    "image": "coca-cola-12oz-can.webp"
+                    "producer": "Coca-Cola",
+                    "products": 
+                        [
+                            {
+                                "name": "Classic",
+                                "price": "1.00",
+                                "image": "coca-cola-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Classic",
+                                "price": "1.00",
+                                "image": "coca-cola-16oz-bottle.webp",
+                                "type" : "16 oz Bottle"
+                            },
+                            {
+                                "name": "Zero-Sugar",
+                                "price": "1.00",
+                                "image": "coca-cola-zero-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Diet",
+                                "price": "1.00",
+                                "image": "coca-cola-diet-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Vanilla",
+                                "price": "1.00",
+                                "image": "coca-cola-vanilla-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Cherry",
+                                "price": "1.00",
+                                "image": "coca-cola-cherry-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Cherry Float",
+                                "price": "1.00",
+                                "image": "coca-cola-cherry-float-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Cherry Float Zero-Sugar",
+                                "price": "1.00",
+                                "image": "coca-cola-cherry-float-zero-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            }
+                        ]
                 },
                 {
-                    "name": "Zero-Sugar",
-                    "price": "1.00",
-                    "image": "coca-cola-zero-12oz-can.webp"
+                    "producer": "Pepsi",
+                    "products":
+                        [
+                            {
+                                "name": "Classic",
+                                "price": "1.00",
+                                "image": "pepsi-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Diet",
+                                "price": "1.00",
+                                "image": "pepsi-diet-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Cherry",
+                                "price": "1.00",
+                                "image": "pepsi-cherry-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            }
+                        ]
                 },
                 {
-                    "name": "Diet",
-                    "price": "1.00",
-                    "image": "coca-cola-diet-12oz-can.webp"
+                    "producer":"Dr Pepper",
+                    "products": 
+                        [
+                            {
+                                "name": "Classic",
+                                "price": "1.00",
+                                "image": "dr-pepper-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Diet",
+                                "price": "1.00",
+                                "image": "dr-pepper-diet-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Cherry",
+                                "price": "1.00",
+                                "image": "dr-pepper-cherry-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Cream Soda",
+                                "price": "1.00",
+                                "image": "dr-pepper-cream-soda-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            }
+                        ]
                 },
                 {
-                    "name": "Vanilla",
-                    "price": "1.00",
-                    "image": "coca-cola-vanilla-12oz-can.webp"
+                    "producer":"A&W",
+                    "products": 
+                        [
+                            {
+                                "name": "Classic Root Beer",
+                                "price": "1.00",
+                                "image": "a&w-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Cream Soda",
+                                "price": "1.00",
+                                "image": "a&w-cream-soda-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            { 
+                                "name": "Ice Cream Sunday",
+                                "price": "1.00",
+                                "image": "a&w-ice-cream-sunday-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            }
+                        ]
                 },
                 {
-                    "name": "Cherry",
-                    "price": "1.00",
-                    "image": "coca-cola-cherry-12oz-can.webp"
+                    "producer":"Canada Dry",
+                    "products": 
+                        [
+                            {
+                                "name": "Classic Ginger Ale",
+                                "price": "1.00",
+                                "image": "canada-dry-ginger-ale-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Cherry Fruit Splash",
+                                "price": "1.00",
+                                "image": "canada-dry-cherry-fruit-splash-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Cherry Fruit Splash Zero-Sugar",
+                                "price": "1.00",
+                                "image": "canada-dry-cherry-fruit-splash-zero-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Strawberry Fruit Splash",
+                                "price": "1.00",
+                                "image": "canada-dry-strawberry-fruit-splash-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Strawberry Fruit Splash Zero-Sugar",
+                                "price": "1.00",
+                                "image": "canada-dry-strawberry-fruit-splash-zero-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },{
+                                "name": "Ginger Ale Cranberry",
+                                "price": "1.00",
+                                "image": "canada-dry-cranberry-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            }
+                        ]
                 },
                 {
-                    "name": "Cherry Float",
-                    "price": "1.00",
-                    "image": "coca-cola-cherry-float-12oz-can.webp"
+                    "producer": "Fanta",
+                    "products":
+                        [
+                            {
+                                "name": "Classic Orange",
+                                "price": "1.00",
+                                "image": "fanta-orange-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            }, 
+                            {
+                                "name": "Strawberry",
+                                "price": "1.00",
+                                "image": "fanta-strawberry-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Grape",
+                                "price": "1.00",
+                                "image": "fanta-grape-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Pineapple",
+                                "price": "1.00",
+                                "image": "fanta-pineapple-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            }
+                        ]
                 },
                 {
-                    "name": "Cherry Float Zero-Sugar",
-                    "price": "1.00",
-                    "image": "coca-cola-cherry-float-zero-12oz-can.webp"
-                }
-            ]
-    },
-    {
-        "producer": "Pepsi",
-        "products":
-            [
-                {
-                    "name": "Classic",
-                    "price": "1.00",
-                    "image": "pepsi-12oz-can.webp"
+                    "producer":"Mountain Dew",
+                    "products": 
+                        [
+                            {
+                                "name": "Classic",
+                                "price": "1.00",
+                                "image": "mountain-dew-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Baja Blast",
+                                "price": "1.00",
+                                "image": "mountain-dew-baja-blast-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Cream Soda",
+                                "price": "1.00",
+                                "image": "mountain-dew-cream-soda-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            }
+                        ]
                 },
                 {
-                    "name": "Diet",
-                    "price": "1.00",
-                    "image": "pepsi-diet-12oz-can.webp"
+                    "producer":"Sprite",
+                    "products": 
+                        [
+                            {
+                                "name": "Classic",
+                                "price": "1.00",
+                                "image": "sprite-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Zero-Sugar",
+                                "price": "1.00",
+                                "image": "sprite-zero-sugar-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            }
+                        ]
                 },
                 {
-                    "name": "Cherry",
-                    "price": "1.00",
-                    "image": "pepsi-cherry-12oz-can.webp"
-                }
-            ]
-    },
-    {
-        "producer":"Dr Pepper",
-        "products": 
-            [
-                {
-                    "name": "Classic",
-                    "price": "1.00",
-                    "image": "dr-pepper-12oz-can.webp"
+                    "producer":"Sunkist",
+                    "products": 
+                        [
+                            {
+                                "name": "Classic",
+                                "price": "1.00",
+                                "image": "sunkist-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Zero-Sugar",
+                                "price": "1.00",
+                                "image": "sunkist-zero-sugar-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            }
+                        ]
                 },
                 {
-                    "name": "Diet",
-                    "price": "1.00",
-                    "image": "dr-pepper-diet-12oz-can.webp"
+                    "producer":"Royal Crown (RC)",
+                    "products": 
+                        [
+                            {
+                                "name": "Classic",
+                                "price": "1.00",
+                                "image": "rc-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "cherry",
+                                "price": "1.00",
+                                "image": "rc-cherry-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            }
+                        ]
                 },
                 {
-                    "name": "Cherry",
-                    "price": "1.00",
-                    "image": "dr-pepper-cherry-12oz-can.webp"
+                    "producer":"Minute Maid",
+                    "products": 
+                        [
+                            {
+                                "name": "Classic Lemonade",
+                                "price": "1.00",
+                                "image": "minute-maid-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Lemonade Zero-Sugar",
+                                "price": "1.00",
+                                "image": "minute-maid-zero-sugar-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Fruit Punch",
+                                "price": "1.00",
+                                "image": "minute-maid-fruit-punch-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            }
+                        ]
                 },
                 {
-                    "name": "Cream Soda",
-                    "price": "1.00",
-                    "image": "dr-pepper-cream-soda-12oz-can.webp"
-                }
-            ]
-    },
-    {
-        "producer":"A&W",
-        "products": 
-            [
-                {
-                    "name": "Classic Root Beer",
-                    "price": "1.00",
-                    "image": "a&w-12oz-can.webp"
+                    "producer":"Vernors",
+                    "products": 
+                        [
+                            {
+                                "name": "Classic Ginger Ale",
+                                "price": "1.00",
+                                "image": "vernors-ginger-ale-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            }
+                        ]
                 },
                 {
-                    "name": "Cream Soda",
-                    "price": "1.00",
-                    "image": "a&w-cream-soda-12oz-can.webp"
-                },
-                { 
-                    "name": "Ice Cream Sunday",
-                    "price": "1.00",
-                    "image": "a&w-ice-cream-sunday-12oz-can.webp"
-                }
-            ]
-    },
-    {
-        "producer":"Canada Dry",
-        "products": 
-            [
-                {
-                    "name": "Classic Ginger Ale",
-                    "price": "1.00",
-                    "image": "canada-dry-ginger-ale-12oz-can.webp"
+                    "producer":"Tahitian Treat",
+                    "products": 
+                        [
+                            {
+                                "name": "Classic",
+                                "price": "1.00",
+                                "image": "tahitian-treat-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            }
+                        ]
                 },
                 {
-                    "name": "Cherry Fruit Splash",
-                    "price": "1.00",
-                    "image": "canada-dry-cherry-fruit-splash-12oz-can.webp"
+                    "producer":"7-UP",
+                    "products": 
+                        [
+                            {
+                                "name": "Classic",
+                                "price": "1.00",
+                                "image": "7-up-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            }
+                        ]
                 },
                 {
-                    "name": "Cherry Fruit Splash Zero-Sugar",
-                    "price": "1.00",
-                    "image": "canada-dry-cherry-fruit-splash-zero-12oz-can.webp"
+                    "producer":"Brisk",
+                    "products": 
+                        [
+                            {
+                                "name": "Classic Lemon",
+                                "price": "1.00",
+                                "image": "brisk-lemon-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            }
+                        ]
                 },
                 {
-                    "name": "Strawberry Fruit Splash",
-                    "price": "1.00",
-                    "image": "canada-dry-strawberry-fruit-splash-12oz-can.webp"
+                    "producer":"Yoohoo",
+                    "products": 
+                        [
+                            {
+                                "name": "Classic Chocolate Drink",
+                                "price": "1.25",
+                                "image": "yoohoo-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            }
+                        ]
                 },
                 {
-                    "name": "Strawberry Fruit Splash Zero-Sugar",
-                    "price": "1.00",
-                    "image": "canada-dry-strawberry-fruit-splash-zero-12oz-can.webp"
-                },{
-                    "name": "Ginger Ale Cranberry",
-                    "price": "1.00",
-                    "image": "canada-dry-cranberry-12oz-can.webp"
-                }
-            ]
-    },
-    {
-        "producer": "Fanta",
-        "products":
-            [
-                {
-                    "name": "Classic Orange",
-                    "price": "1.00",
-                    "image": "fanta-orange-12oz-can.webp"
-                }, 
-                {
-                    "name": "Strawberry",
-                    "price": "1.00",
-                    "image": "fanta-strawberry-12oz-can.webp"
+                    "producer":"Tropi-Cola",
+                    "products": 
+                        [
+                            {
+                                "name": "Classic Champagne Drink",
+                                "price": "1.25",
+                                "image": "tropi-cola-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            }
+                        ]
                 },
                 {
-                    "name": "Grape",
-                    "price": "1.00",
-                    "image": "fanta-grape-12oz-can.webp"
-                },
-                {
-                    "name": "Pineapple",
-                    "price": "1.00",
-                    "image": "fanta-pineapple-12oz-can.webp"
-                }
-            ]
-    },
-    {
-        "producer":"Mountain Dew",
-        "products": 
-            [
-                {
-                    "name": "Classic",
-                    "price": "1.00",
-                    "image": "mountain-dew-12oz-can.webp"
-                },
-                {
-                    "name": "Baja Blast",
-                    "price": "1.00",
-                    "image": "mountain-dew-baja-blast-12oz-can.webp"
-                },
-                {
-                    "name": "Cream Soda",
-                    "price": "1.00",
-                    "image": "mountain-dew-cream-soda-12oz-can.webp"
-                }
-            ]
-    },
-    {
-        "producer":"Sprite",
-        "products": 
-            [
-                {
-                    "name": "Classic",
-                    "price": "1.00",
-                    "image": "sprite-12oz-can.webp"
-                },
-                {
-                    "name": "Zero-Sugar",
-                    "price": "1.00",
-                    "image": "sprite-zero-sugar-12oz-can.webp"
-                }
-            ]
-    },
-    {
-        "producer":"Sunkist",
-        "products": 
-            [
-                {
-                    "name": "Classic",
-                    "price": "1.00",
-                    "image": "sunkist-12oz-can.webp"
-                },
-                {
-                    "name": "Zero-Sugar",
-                    "price": "1.00",
-                    "image": "sunkist-zero-sugar-12oz-can.webp"
-                }
-            ]
-    },
-    {
-        "producer":"Royal Crown (RC)",
-        "products": 
-            [
-                {
-                    "name": "Classic",
-                    "price": "1.00",
-                    "image": "rc-12oz-can.webp"
-                },
-                {
-                    "name": "cherry",
-                    "price": "1.00",
-                    "image": "rc-cherry-12oz-can.webp"
-                }
-            ]
-    },
-    {
-        "producer":"Minute Maid",
-        "products": 
-            [
-                {
-                    "name": "Classic Lemonade",
-                    "price": "1.00",
-                    "image": "minute-maid-12oz-can.webp"
-                },
-                {
-                    "name": "Lemonade Zero-Sugar",
-                    "price": "1.00",
-                    "image": "minute-maid-zero-sugar-12oz-can.webp"
-                },
-                {
-                    "name": "Fruit Punch",
-                    "price": "1.00",
-                    "image": "minute-maid-fruit-punch-12oz-can.webp"
-                }
-            ]
-    },
-    {
-        "producer":"Vernors",
-        "products": 
-            [
-                {
-                    "name": "Classic Ginger Ale",
-                    "price": "1.00",
-                    "image": "vernors-ginger-ale-12oz-can.webp"
-                }
-            ]
-    },
-    {
-        "producer":"Tahitian Treat",
-        "products": 
-            [
-                {
-                    "name": "Classic",
-                    "price": "1.00",
-                    "image": "tahitian-treat-12oz-can.webp"
-                }
-            ]
-    },
-    {
-        "producer":"7-UP",
-        "products": 
-            [
-                {
-                    "name": "Classic",
-                    "price": "1.00",
-                    "image": "7-up-12oz-can.webp"
-                }
-            ]
-    },
-    {
-        "producer":"Brisk",
-        "products": 
-            [
-                {
-                    "name": "Classic Lemon",
-                    "price": "1.00",
-                    "image": "brisk-lemon-12oz-can.webp"
-                }
-            ]
-    },
-    {
-        "producer":"Yoohoo",
-        "products": 
-            [
-                {
-                    "name": "Classic Chocolate Drink",
-                    "price": "1.25",
-                    "image": "yoohoo-12oz-can.webp"
-                }
-            ]
-    },
-    {
-        "producer":"Tropi-Cola",
-        "products": 
-            [
-                {
-                    "name": "Classic Champagne Drink",
-                    "price": "1.25",
-                    "image": "tropi-cola-12oz-can.webp"
-                }
-            ]
-    },
-    {
-        "producer":"Crush",
-        "products": 
-            [
-                {
-                    "name": "Classic orange",
-                    "price": "1.00",
-                    "image": "crush-12oz-can.webp"
+                    "producer":"Crush",
+                    "products": 
+                        [
+                            {
+                                "name": "Classic orange",
+                                "price": "1.00",
+                                "image": "crush-12oz-can.webp",
+                                "type" : "12 oz Can"
+                            }
+                        ]
                 }
             ]
     }

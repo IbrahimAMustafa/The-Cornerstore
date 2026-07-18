@@ -5,9 +5,10 @@ interface ContentCardProps {
   name: string;
   price: string;
   image: string;
+  type: string;
 }
 
-export default function InventoryCard ({name, price, image}: ContentCardProps) {
+export default function InventoryCard ({name, price, image, type}: ContentCardProps) {
     const imagePath = `/inventory_images/${image}`
     return (
         <div className='flex flex-col  items-center'>
@@ -21,7 +22,10 @@ export default function InventoryCard ({name, price, image}: ContentCardProps) {
             />
             <p className='text-center'>{name}
                 <br/>
-            ${price}</p>
+                {type}
+                <br/>
+                ${price}
+            </p>
         </div>
     );
 };

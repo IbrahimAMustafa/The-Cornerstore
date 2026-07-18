@@ -38,7 +38,7 @@ export default function Home() {
           }}
         />
         <div className="relative z-10 flex items-center justify-center h-1/1 text-white bg-black/40 bg-gradient-to-t from-(--medium) to-40%">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-(--light) [-webkit-text-stroke:1px_black]">Brinsmade's Best</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-(--light) [-webkit-text-stroke:1px_black]">The Cornerstore</h1>
         </div>
       </div>
 
