@@ -22,7 +22,7 @@ export default function Page() {
 
   const uniqueTypes = FilterFetch(inventoryData[currentCategory], "types") as unknown as typesProps;
   const brands = FilterFetch(inventoryData, "brands", selectedBrands);
-  const products = FilterFetch(brands, "products", null, nameFilter);
+  const products = FilterFetch(brands, "products", null, nameFilter, selectedTypes);
 
   const updateNameFilter = (event:any) => {
     setNameFilter(event.target.value.replace(/[.*+?^${}()|[\]\\\/]/g, '\\$&'));
