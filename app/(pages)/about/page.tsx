@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import backgroundImage from '../../../public/aboutUsPlaceholder.jpg'; // Static import for automatic width/height detection
-import ContentCard from '../../components/contentCard';
+import backgroundImage from '@/public/aboutUsPlaceholder.jpg'; // Static import for automatic width/height detection
+import ContentCard from '@/app/components/contentCard';
 const contentCards = [
     {
       title: "Convenience Near Home",

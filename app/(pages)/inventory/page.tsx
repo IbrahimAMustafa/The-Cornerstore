@@ -1,22 +1,28 @@
 'use client'
 import InventoryCard from '@/app/components/InventoryCard';
-import inventoryData from '../../Data/inventory.json'
+import inventoryData from '@/app/Data/inventory.json'
 import React, { useState, useId } from 'react';
+import FilterFetch from '@/app/components/InventoryDataFetch';
 
 export default function Page() {
 
+  const currentCategory = 0;
   const usernameId = useId();
+
   const [brandsIsOpen, setBrandsIsOpen] = useState(false);
-  const [typesIsOpen, setTypesIsOpen] = useState(false);
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
+
+  const [typesIsOpen, setTypesIsOpen] = useState(false);
   const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
+  interface typesProps {
+    [type: string]: any;
+  }
+
   const [nameFilter,setNameFilter] = useState('');
-  const brands = inventoryData.flatMap(type => type.inventory.filter(brand => selectedBrands && selectedBrands.includes(brand.producer) || selectedBrands.length == 0 ));
-  const products = brands.flatMap(brand => brand.products.map(
-      item => ({...item, producer: brand.producer})
-    ).filter(
-      item => RegExp(nameFilter, 'i').test(item.name+brand.producer))
-  );
+
+  const uniqueTypes = FilterFetch(inventoryData[currentCategory], "types") as unknown as typesProps;
+  const brands = FilterFetch(inventoryData, "brands", selectedBrands);
+  const products = FilterFetch(brands, "products", null, nameFilter);
 
   const updateNameFilter = (event:any) => {
     setNameFilter(event.target.value.replace(/[.*+?^${}()|[\]\\\/]/g, '\\$&'));
@@ -57,14 +63,14 @@ export default function Page() {
           <div className='border-b w-1/1'>
             <button onClick={() => setTypesIsOpen(!typesIsOpen)} className='text-center w-1/1'>Types</button>
             {typesIsOpen && (
-              inventoryData[0].inventory.map((brand, index) => (
+              uniqueTypes.map((type, index) => (
               <label key={index} style={{ display: 'block', margin: '5px 0' }}>
                 <input
                   type="checkbox"
-                  checked={selectedBrands.includes(brand.producer)}
-                  onChange={() => handleCheckboxChange(brand.producer, setSelectedTypes)}
+                  checked={selectedTypes.includes(type)}
+                  onChange={() => handleCheckboxChange(type, setSelectedTypes)}
                 />
-                {brand.producer}
+                {type}
               </label>
               ))
             )}

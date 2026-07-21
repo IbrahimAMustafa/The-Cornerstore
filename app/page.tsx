@@ -1,11 +1,11 @@
 import Image from 'next/image';
-import "./home.css";
-import backgroundImage from '../public/thecornerstore.jpg';
-import cardReader from '../public/Credit-Card-Reader-Image.jpg';
-import atm from '../public/atm-placeholder.jpg';
-import snacks from '../public/snacks.jpg';
-import alcohol from '../public/alcohol.jpg';
-import ContentCard from './components/contentCard';
+import "@/app/home.css";
+import backgroundImage from '@/public/thecornerstore.jpg';
+import cardReader from '@/public/Credit-Card-Reader-Image.jpg';
+import atm from '@/public/atm-placeholder.jpg';
+import snacks from '@/public/snacks.jpg';
+import alcohol from '@/public/alcohol.jpg';
+import ContentCard from '@/app/components/contentCard';
 
 export default function Home() {
   const contentCards = [

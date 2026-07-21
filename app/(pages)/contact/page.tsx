@@ -1,5 +1,5 @@
-import MapMarkerIcon from "../../components/Icons/MapMarkerIcon"
-import PhoneIcon from "../../components/Icons/PhoneIcon"
+import MapMarkerIcon from "@/app/components/Icons/MapMarkerIcon"
+import PhoneIcon from "@/app/components/Icons/PhoneIcon"
 
 const cardStyling="m-auto bg-card bg-(--light)/50 rounded-2xl shadow-lg w-9/10 md:4/5 lg:w-35/50 pt-5 pb-5"
 const iconStyling = "flex justify-center items-center ml-auto my-auto mr-2 h-10 w-10 bg-(--light) rounded-lg"
