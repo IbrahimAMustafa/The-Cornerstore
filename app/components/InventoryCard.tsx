@@ -23,8 +23,8 @@ export default function InventoryCard ({name, price, image, type}: ContentCardPr
             <p className='text-center'>{name}
                 <br/>
                 {type}
-                <br/>
-                ${price}
+                {/* <br/>
+                ${price} */}
             </p>
         </div>
     );

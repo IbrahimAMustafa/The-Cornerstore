@@ -74,6 +74,12 @@
                                 "type" : "12 oz Can"
                             },
                             {
+                                "name": "Diet",
+                                "price": "1.00",
+                                "image": "pepsi-diet-24oz-bottle.webp",
+                                "type" : "24 oz Bottle"
+                            },
+                            {
                                 "name": "Cherry",
                                 "price": "1.00",
                                 "image": "pepsi-cherry-12oz-can.webp",
@@ -90,6 +96,12 @@
                                 "price": "1.00",
                                 "image": "dr-pepper-12oz-can.webp",
                                 "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Classic",
+                                "price": "1.00",
+                                "image": "dr-pepper-24oz-bottle.webp",
+                                "type" : "24 oz Bottle"
                             },
                             {
                                 "name": "Diet",
@@ -144,6 +156,12 @@
                                 "price": "1.00",
                                 "image": "canada-dry-ginger-ale-12oz-can.webp",
                                 "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Classic Ginger Ale",
+                                "price": "1.00",
+                                "image": "canada-dry-ginger-ale-16oz-bottle.webp",
+                                "type" : "16 oz Bottle"
                             },
                             {
                                 "name": "Cherry Fruit Splash",
@@ -217,6 +235,12 @@
                                 "type" : "12 oz Can"
                             },
                             {
+                                "name": "Classic",
+                                "price": "1.00",
+                                "image": "mountain-dew-24oz-bottle.webp",
+                                "type" : "24 oz Bottle"
+                            },
+                            {
                                 "name": "Baja Blast",
                                 "price": "1.00",
                                 "image": "mountain-dew-baja-blast-12oz-can.webp",
@@ -239,6 +263,12 @@
                                 "price": "1.00",
                                 "image": "sprite-12oz-can.webp",
                                 "type" : "12 oz Can"
+                            },
+                            {
+                                "name": "Classic",
+                                "price": "1.00",
+                                "image": "sprite-16oz-bottle.webp",
+                                "type" : "16 oz Bottle"
                             },
                             {
                                 "name": "Zero-Sugar",
@@ -389,6 +419,36 @@
                                 "price": "1.00",
                                 "image": "crush-12oz-can.webp",
                                 "type" : "12 oz Can"
+                            }
+                        ]
+                },
+                {
+                    "producer":"Faygo",
+                    "products": 
+                        [
+                            {
+                                "name": "Fireworks",
+                                "price": "1.00",
+                                "image": "faygo-fireworks-24oz-bottle.webp",
+                                "type" : "24 oz Bottle"
+                            },
+                            {
+                                "name": "Cotton Candy",
+                                "price": "1.00",
+                                "image": "faygo-cotton-candy-24oz-bottle.webp",
+                                "type" : "24 oz Bottle"
+                            },
+                            {
+                                "name": "Moon Mist",
+                                "price": "1.00",
+                                "image": "faygo-moon-mist-24oz-bottle.webp",
+                                "type" : "24 oz Bottle"
+                            },
+                            {
+                                "name": "Grape",
+                                "price": "1.00",
+                                "image": "faygo-grape-24oz-bottle.webp",
+                                "type" : "24 oz Bottle"
                             }
                         ]
                 }

@@ -11,7 +11,7 @@ export default function FilterFetch (data, functionName, selectedBrands?, nameFi
                 item => 
                     RegExp(nameFilter, 'i').test(item.name+brand.producer) 
                     && 
-                    (selectedTypes.length === 0 || selectedTypes.includes(item.type))
+                    (selectedTypes.length == 0 || selectedTypes.includes(item.type))
             )
         );
     }
