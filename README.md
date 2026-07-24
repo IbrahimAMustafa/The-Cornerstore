@@ -1,3 +1,6 @@
+Currently Live Dev Link for Viewing Master Branch: https://magenta-mandrill-705601.hostingersite.com/
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
